@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  position: relative;
+  top: 20%;
+}
+
+.container {
+  color: aliceblue;
+  display: grid;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.message {
+  padding-top: 20px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.game-button {
+  width: 150px;
+  height: 150px;
+  font-size: 24px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.5;
+  margin: 20px;
+}
+
+.game-button.active {
+  opacity: 1;
+  filter: brightness(1.5);
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+}
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#start {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(141, 141, 141);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  position: relative;
+  left: 37%;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+#start:hover {
+  background-color: aliceblue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#score {
+  color: aliceblue;
+  font-size: 2rem;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  bottom: 50%;
+  top: 30%;
+  left: 75%;
+}
