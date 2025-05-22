@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,8 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  font-family: sans-serif;
   position: relative;
+  font-family: sans-serif;
   top: 20%;
 }
 
@@ -21,6 +23,8 @@ h1 {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 5rem;
 }
 
 .message {
@@ -28,12 +32,14 @@ h1 {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  
 }
 
 .game-button {
   width: 150px;
   height: 150px;
   font-size: 24px;
+  font-family: sans-serif;
   margin: 5px;
   cursor: pointer;
   display: inline-block;
@@ -66,19 +72,21 @@ h1 {
 
 #start {
   margin-top: 20px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(141, 141, 141);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: relative;
-  left: 37%;
-  font-style: oblique;
+  left: 35%;
   text-transform: uppercase;
+  font-family: "Pixelify Sans", sans-serif;
+  border: 2px solid white;
+  
 }
 
 #start:hover {
-  background-color: aliceblue;
+  background-color: rgb(70, 70, 70);
   transition: 0.5s;
   cursor: pointer;
 }
@@ -89,6 +97,7 @@ h1 {
   margin-top: 20px;
   display: flex;
   align-items: center;
+  font-family: "Pixelify Sans", sans-serif;
 }
 
 img {
