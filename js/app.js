@@ -73,11 +73,14 @@ const sounds = {};
 
 const music = new Audio("sounds/Undertale - Megalovania.mp3");
 music.loop = true;
-music.volume = 0.3;
+music.volume = 0.2;
 
 const perdu = new Audio("sounds/Mario Death - Sound Effect (HD).mp3");
+perdu.volume = 0.2;
 const gagner = new Audio("sounds/fanfare.mp3");
+gagner.volume = 0.2;
 const timeLess = new Audio("sounds/Mario Death - Sound Effect (HD).mp3");
+timeLess.volume = 0.2;
 
 function playerSequence(color) {
   if (!canClick) return;
